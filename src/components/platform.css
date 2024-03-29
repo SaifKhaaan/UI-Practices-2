@@ -1,0 +1,9 @@
+.platform-container{
+    background-color: rgb(250,250,250);
+    padding-left: var(--paddingleft);
+    padding-right: var(--paddingright);
+    padding-top: 10%;
+}
+.brand-images img{
+width: 100%;
+}

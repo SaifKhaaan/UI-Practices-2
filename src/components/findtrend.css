@@ -1,0 +1,23 @@
+#dull-text{
+    color: rgb(173,173,173);
+}
+
+
+.Findtrend-jsx{
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+.Findtrend{
+    padding-left: var(--paddingleft);
+    padding-right: var(--paddingright);
+}
+.brand-img img{
+    width: 50%;
+    margin-top: 5%;
+
+}
+
+.brand-img{
+    display: flex;
+    flex-direction: row;
+}

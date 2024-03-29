@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color:white;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+   
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; /* Add spacing between links */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+  color: white;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff; /* Change hover color */
+  }
+  
+  .sign-up {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Add spacing between login and button */
+  }
+  
+  .sign-up span {
+    color: white;
+  }
+  
+  .sign-up button {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+  
+  .sign-up button:hover {
+    background-color: var(--ugreen); /* Change button hover color */
+  }
+  

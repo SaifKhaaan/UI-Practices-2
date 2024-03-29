@@ -1,0 +1,28 @@
+.open-tab-container{
+    background-color: var(--ugreen);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.open-tab-conatiner h1{
+ color: black;
+ font-size: 71px;
+}
+
+.open-tab-box{
+    background-color: white;
+    border-radius: 16px;
+    height: 202px;
+    width: 502px;
+    justify-content: center;
+}
+.box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left-img img{
+    width: 95.42px;
+    height: 72.57px;
+}

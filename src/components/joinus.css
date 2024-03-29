@@ -1,0 +1,25 @@
+#email-dull{
+    color: rgb(135,211,34);
+}
+
+.Black-btn{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    border: none;
+font-size: 18px;
+padding-left: 32px;
+padding-right: 32px;
+padding-top: 16px;
+padding-bottom: 16px;
+}
+
+.joinus-container{
+    background-color: var(--ugreen);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.joinus-container h1{
+    font-size: 72px;
+}
