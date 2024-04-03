@@ -30,3 +30,15 @@
     color: #007bff; /* Change hover color */
   }
   
+
+  @media (max-width: 768px) {
+.footer{
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.nav-footer-links {
+  padding-top: 20px;
+  flex-direction: column;
+}
+
+  }

@@ -6,10 +6,21 @@
 .Findtrend-jsx{
     margin-top: 90px;
     margin-bottom: 150px;
+      
 }
+
+.Findtrend-jsx h1{
+    font-size: 64px; 
+}
+
+.count h1{
+    font-size: 64px;
+}
+
 .Findtrend{
     padding-left: var(--paddingleft);
     padding-right: var(--paddingright);
+    margin-bottom: 100px;
 }
 .brand-img img{
     width: 50%;
@@ -20,4 +31,19 @@
 .brand-img{
     display: flex;
     flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .brand-img{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .brand-img img{
+        width: 100%;
+    }
+    .Findtrend h1{
+        font-size: 36px; 
+    }
 }

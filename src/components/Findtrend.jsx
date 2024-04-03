@@ -12,7 +12,7 @@ const Findtrend = () => {
             </span> 
         </h1>
       </div>
-      <div>
+      <div className='count'> 
         <h1>
         Findtrend make +1000 Startup grow
         </h1>

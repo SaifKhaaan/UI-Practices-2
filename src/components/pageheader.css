@@ -1,9 +1,10 @@
-.navbar {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     color:white;
+   
   }
   
   .logo {
@@ -18,6 +19,7 @@
     margin: 0;
     display: flex;
     flex-direction: row;
+    margin-left: 150px;
     gap: 1rem; /* Add spacing between links */
   }
   
@@ -53,3 +55,67 @@
     background-color: var(--ugreen); /* Change button hover color */
   }
   
+  /* ///////////////////// */
+  .nav-btn{
+    visibility: hidden;
+    opacity: 0;
+    padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+  }
+
+.nav-btn{
+  color: white;
+}
+
+
+
+  @media (max-width: 768px) {
+
+    .nav {
+      margin-top: 1rem;
+      position: fixed;
+      top: 90vh;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: #89DB7B;
+      transition: 1s;
+      transform: translateY(-100vh);
+      z-index: 999;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: -50px;
+    }
+
+    .nav-btn {
+      visibility: visible;
+      opacity: 1;
+      font-size: larger;
+      border: #89DB7B;
+    }
+
+     .responsive_nav {
+      transform: translateY(100vh);
+       /* transform: none; */
+    } 
+  .nav-links{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -0px;
+  }
+  .nav-links li{
+    justify-content: left;
+    align-items: center;
+
+  }
+
+  }

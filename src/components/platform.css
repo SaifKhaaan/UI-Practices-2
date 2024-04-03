@@ -1,9 +1,239 @@
-.platform-container{
-    background-color: rgb(250,250,250);
-    padding-left: var(--paddingleft);
-    padding-right: var(--paddingright);
-    padding-top: 10%;
+.platform-container {
+  background-color: rgb(250, 250, 250);
+  padding-left: var(--paddingleft);
+  padding-right: var(--paddingright);
+  padding-top: 10%;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.brand-images img{
-width: 100%;
+.platform-container h1 {
+  font-size: 64px;
+  padding-bottom: 30px;
+}
+
+
+
+.twitter-container {
+  padding-top: 70px;
+  width: 650px;
+}
+
+.twitter-elon {
+  border: 2px solid rgb(240, 243, 244);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: white;
+  margin-bottom: 50px;
+  text-align: left;
+}
+.profile-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.elon-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 530px;
+}
+
+.elon-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  padding-left: 10px;
+}
+
+#verified-icon img {
+  width: 20px;
+  height: 20px;
+}
+.title-dull {
+  color: rgb(134, 144, 153);
+}
+
+.title-dull p,
+#card-menu p {
+  color: rgb(134, 144, 153);
+}
+
+#card-menu p {
+  padding-top: 5px;
+}
+
+.blue-text {
+  padding-left: 5px;
+  color: rgb(71, 156, 233);
+}
+
+.reply-text {
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+  justify-content: left;
+}
+
+.tweet {
+  text-align: left;
+  margin-top: -25px;
+}
+
+.tweet-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.tweet-stats img {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+
+
+.tweet-stats-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweet-image-container img {
+  width: 525px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.tweet-image-container {
+  border-radius: 30px;
+  border: 2px solid rgb(209, 217, 221);
+  width: 525px;
+}
+
+.tweet-image-container h4,
+p {
+  padding-left: 10px;
+}
+
+.sawyer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 310px;
+  padding-left: 10px;
+}
+
+.elon-sawyer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 530px;
+}
+
+.Black-bttn button {
+  background-color: black;
+  color: white;
+  border: none;
+
+  border-radius: 50px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.Black-bttn p {
+  font-size: 18px;
+}
+
+
+.brand-images{
+  display: flex;
+  flex-direction: row;
+}
+.brand-box {
+padding: 32px;
+background-color: white;
+border: none;
+margin-left: 12px;
+
+}
+.brand-box:hover{
+  background-color: var(--ugreen);
+}
+
+/* /////////////////////// */
+
+@media (max-width: 768px) {
+  .platform-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .twitter-container {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+  .elon-title-container {
+    width: 250px;
+  }
+  .elon-title {
+    width: 200px;
+  }
+  .tweet-stats {
+    width: 250px;
+  }
+  .tweet {
+    width: 250px;
+  }
+  .tweet-image-container {
+    width: 250px;
+  }
+  .tweet-image-container img {
+    width: 250px;
+  }
+  .elon-sawyer-container {
+    width: 250px;
+  }
+  .platform-container h1 {
+    font-size: 36px;
+  }
+  .profile-img img {
+    width: 30px;
+    height: 30px;
+    /* border-radius: 50%;  */
+
+    padding: 0;
+  }
+  .profile-img {
+    border-radius: 50%;
+    margin-top: 20 px;
+  }
+  .brand-images {
+   
+      overflow-x: scroll;
+    max-width: 320px;
+  }
+  .brand-box img{
+    height: 30px;
+    width: 30px;
+    padding: 0;
+  }
+  .tweet-stats img { padding: 0;}
+  .tweet-stats p {margin-left:-6px ;}
 }

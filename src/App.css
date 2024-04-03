@@ -1,6 +1,14 @@
 .App {
   text-align: center;
+ 
+}
+button:hover{
+  background-color: #FBBC09;
 }
 
+@media (max-width:768px){
+  .App{
 
-
+    overflow-x: hidden;
+  }
+}

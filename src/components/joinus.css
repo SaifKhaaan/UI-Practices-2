@@ -23,3 +23,8 @@ padding-bottom: 16px;
 .joinus-container h1{
     font-size: 72px;
 }
+@media (max-width: 768px){
+    .joinus-container h1{
+        font-size: 36px;
+    }
+}

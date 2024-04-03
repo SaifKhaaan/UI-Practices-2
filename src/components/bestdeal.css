@@ -14,11 +14,16 @@ padding-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     font-size: 24px;
 }
 
 .best-deal-monthly h2{
 color: white;
+}
+#dull-text h2{
+    color: rgb(122,122,122);
+    padding-right: 10px;
 }
 
 .card-heading{
@@ -147,4 +152,66 @@ font-weight: 700;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.monthly-btn{
+    position: relative;
+    background-color: white;
+    width: 104px;
+    height: 52px;
+    border-radius: 99px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-circle{
+    background-color: var(--ugreen);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+    }
+.best-deal-monthly-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+    
+  @media (max-width: 768px) {
+    .cards-container{
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .best-deal-container{
+        padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    align-items: center;
+    }
+    .card{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 339px;
+    }
+
+    .best-deal-monthly-container{
+     
+        flex-direction: column;
+    }  
+#save img{
+    margin-left: 50%;
+}
+#best-deal-heading{
+
+    font-size: 36px;
+}
+.best-deal-monthly h2{
+   font-size: 18px;
+    }
 }
